@@ -75,3 +75,10 @@ function game(){
 }
 
 game();
+
+const buttons = document.querySelectorAll(".rps");
+buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+        const playerSelection = button.className;
+    })
+})
