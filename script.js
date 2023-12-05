@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function getComputerChoice(){
     let computerChoice = Math.floor(Math.random() * 3) + 1;
     if (computerChoice == 1){
@@ -68,7 +67,6 @@ function endGame(){
         document.write(`The computer scored ${computerScore},  You scored ${playerScore}, The computer won`)
     }
 }
-=======
 function getComputerChoice(){
     let computerChoice = Math.floor(Math.random() * 3) + 1;
     if (computerChoice === 1){
@@ -146,4 +144,3 @@ function game(){
 }
 
 game();
->>>>>>> 4db6d2e2354f412520a39791843fd7aefef25b79
